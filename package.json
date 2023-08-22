@@ -1,0 +1,23 @@
+{
+  "name": "practice-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "bug": "./dist/index.js"
+  },
+  "scripts": {
+    "dev": "tsc -w",
+    "link-cli": "npm unlink -g&npm link"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "commander": "^11.0.0"
+  }
+}
